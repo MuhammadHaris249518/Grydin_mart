@@ -58,6 +58,7 @@
     @media(max-width:900px){.hero h1{font-size:clamp(2.65rem,5.3vw,3.5rem)}.hero-grid{gap:22px}.payment-layout{grid-template-columns:1fr;gap:24px}.payment-grid{grid-template-columns:repeat(4,1fr)}.rider-panel{gap:20px;padding:36px}.rider-visual{min-height:280px}.route-map{height:240px}}
     @media(max-width:760px){.hero h1{font-size:clamp(2.7rem,9vw,3.7rem)}.hero h1 em{font-size:clamp(1.5rem,5.8vw,2.1rem)}.store-actions{gap:8px}.store-badge{min-width:0;flex:1;padding-inline:10px}.store-badge strong{font-size:.8rem}.feature-list{gap:13px}.feature-list small{font-size:.79rem}.payment-grid{grid-template-columns:repeat(2,1fr)}.payment-option{min-height:110px}.rider-panel{grid-template-columns:1fr;gap:30px;padding:clamp(28px,7vw,42px)}.rider-copy h2{font-size:clamp(2.4rem,8vw,3.5rem)}.rider-visual{min-height:270px}.earning-card{right:1%}}
     @media(max-width:460px){.hero h1{font-size:clamp(2.45rem,10.5vw,3.2rem)}.hero-actions.store-actions{align-items:stretch;flex-direction:column}.store-badge{width:100%;min-height:56px}.payment-layout{gap:18px}.payment-grid{gap:8px}.payment-option{padding:13px}.rider-benefits{grid-template-columns:1fr;gap:10px}.rider-visual{min-height:230px}.route-map{height:220px}.earning-card{right:0;bottom:-7px}}
+    .experience-showcase{min-width:0}.showcase-frame{isolation:isolate}.showcase-demo-screen{position:absolute;z-index:2;left:29.1%;top:7.4%;width:35.7%;height:76.7%;overflow:hidden;border-radius:9px;opacity:0;transform:skewX(-8.5deg) skewY(2.4deg);transform-origin:top left;transition:opacity .25s ease;pointer-events:none}.showcase-demo-screen.is-playing{opacity:1}.showcase-demo-screen video{display:block;width:100%;height:100%;object-fit:cover;object-position:center center;border-radius:inherit;background:transparent}.showcase-demo-screen:before{content:"";position:absolute;z-index:2;left:50%;top:1.2%;width:17%;height:8px;border-radius:99px;background:linear-gradient(180deg,#050807,#101612);transform:translateX(-50%);box-shadow:0 1px 1px #ffffff40}@media(max-width:760px){.showcase-demo-screen{border-radius:7px}.showcase-demo-screen:before{height:6px}}
   </style>
   <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.3.1/model-viewer.min.js"></script>
 </head>
@@ -92,7 +93,7 @@
   <main id="main">
     <section class="hero" id="top"><div class="wrap hero-grid">
       <div class="hero-copy"><p class="eyebrow">Grocery, reimagined for Pakistan</p><h1>Your Daily Essentials,<br>Delivered in Minutes.</h1><p class="hero-lead">Experience Pakistan's most advanced grocery delivery. Track your order live, pay your way, and get exactly what you ordered.</p><div class="hero-actions store-actions"><a class="store-badge" href="#customer-app" aria-label="Get it on Google Play"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#34a853" d="M3.2 2.6c-.45.48-.7 1.13-.7 1.98v14.84c0 .84.25 1.5.7 1.98l8.5-9.4L3.2 2.6Z"/><path fill="#4285f4" d="m11.7 12 2.5 2.7 5.2-3-5.2-3-2.5 3.3Z"/><path fill="#fbbc04" d="m3.2 21.4 11-6.7-2.5-2.7-8.5 9.4Z"/><path fill="#ea4335" d="m3.2 2.6 8.5 9.4 2.5-3.3-11-6.1Z"/></svg><span><small>Get it on</small><strong>Google Play</strong></span></a><a class="store-badge" href="#customer-app" aria-label="Download on the App Store"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.8 12.8c0-2.2 1.8-3.2 1.9-3.3a4.2 4.2 0 0 0-3.3-1.8c-1.4-.2-2.7.8-3.4.8s-1.8-.8-3-.8a4.4 4.4 0 0 0-3.7 2.2c-1.6 2.7-.4 6.6 1.1 8.8.7 1.1 1.5 2.3 2.6 2.2 1-.1 1.4-.7 2.7-.7 1.2 0 1.6.7 2.7.7 1.1 0 1.8-1.1 2.5-2.2.8-1.2 1.1-2.4 1.1-2.5-.1 0-2.2-.9-2.2-3.4ZM14.6 6.2A4.1 4.1 0 0 0 15.5 3a4.2 4.2 0 0 0-2.8 1.4 3.8 3.8 0 0 0-.9 3 3.5 3.5 0 0 0 2.8-1.2Z"/></svg><span><small>Download on the</small><strong>App Store</strong></span></a></div></div>
-      <div class="hero-art" id="hero-art"><div class="hero-scene" id="hero-scene"><img class="hero-poster" src="assets/grydin-hero-art.png" alt="" width="490" height="431" fetchpriority="high" draggable="false"><model-viewer class="hero-model" id="hero-model" src="assets/grydin-grocery-bag.glb" poster="assets/grydin-hero-art.png" alt="Interactive 3D model of a Grydin grocery bag filled with fresh produce" camera-controls touch-action="pan-y" camera-orbit="18deg 75deg 2.2m" camera-target="0m 0.5m 0m" min-camera-orbit="auto 25deg 1.2m" max-camera-orbit="auto 130deg 3.8m" auto-rotate auto-rotate-delay="1200" rotation-per-second="14deg" environment-image="neutral" exposure="1.05" tone-mapping="aces" shadow-intensity="0.85" shadow-softness="0.9" loading="eager" reveal="auto"></model-viewer><span class="float-tag one model-float-tag" aria-hidden="true">✿ &nbsp; Fresh picks</span><span class="float-tag two model-float-tag" aria-hidden="true">♧ &nbsp; Everyday essentials</span></div></div>
+      <div class="hero-art" id="hero-art"><div class="hero-scene" id="hero-scene"><img class="hero-poster" src="assets/grydin-hero-art.png" alt="" width="490" height="431" fetchpriority="high" draggable="false"><model-viewer class="hero-model" id="hero-model" src="assets/grydin-grocery-bag-hero.glb" scale="1.5 1.5 1.5" poster="assets/grydin-hero-art.png" alt="Interactive 3D model of a Grydin grocery bag filled with fresh produce" camera-controls touch-action="pan-y" camera-orbit="18deg 75deg 2.2m" camera-target="0m 0.48m 0m" min-camera-orbit="auto 25deg 1.2m" max-camera-orbit="auto 130deg 3.8m" auto-rotate auto-rotate-delay="1200" rotation-per-second="14deg" environment-image="neutral" exposure="1.05" tone-mapping="aces" shadow-intensity="0.85" shadow-softness="0.9" loading="eager" reveal="auto"></model-viewer><span class="float-tag one model-float-tag" aria-hidden="true">✿ &nbsp; Fresh picks</span><span class="float-tag two model-float-tag" aria-hidden="true">♧ &nbsp; Everyday essentials</span></div></div>
     </div></section>
     <div class="promise-strip" aria-label="Grydin mart platform highlights"><div class="wrap promise-inner"><div class="promise"><span class="promise-icon"><svg aria-hidden="true"><use href="#i-pin"/></svg></span><span class="promise-copy"><strong>Live tracking</strong><small>Follow your order in real time</small></span></div><div class="promise"><span class="promise-icon"><svg aria-hidden="true"><use href="#i-scan"/></svg></span><span class="promise-copy"><strong>Verified picking</strong><small>Barcode-scanned for accuracy</small></span></div><div class="promise"><span class="promise-icon"><svg aria-hidden="true"><use href="#i-card"/></svg></span><span class="promise-copy"><strong>Local payments</strong><small>Pay the way you want</small></span></div><div class="promise"><span class="promise-icon"><svg aria-hidden="true"><use href="#i-bike"/></svg></span><span class="promise-copy"><strong>Rider network</strong><small>Quick delivery, clear updates</small></span></div></div></div>
     <section class="section" id="experience"><div class="wrap experience" id="customer-app">
@@ -102,7 +103,7 @@
         <li><span class="feature-icon"><svg aria-hidden="true"><use href="#i-swap"/></svg></span><span><strong>Smart Substitutions</strong><small>Never miss an item. Get instant alternative suggestions if a product is out of stock.</small></span></li>
         <li><span class="feature-icon"><svg aria-hidden="true"><use href="#i-bell"/></svg></span><span><strong>Instant Alerts</strong><small>Receive live order updates via WhatsApp, SMS, and Push Notifications.</small></span></li>
       </ul></div>
-      <div class="experience-showcase reveal"><div class="showcase-frame"><img class="showcase-img" src="assets/grydin-app-showcase.png" alt="Grydin mart app on a phone with fresh produce" width="457" height="502" fetchpriority="high"></div></div>
+      <div class="experience-showcase reveal"><div class="showcase-frame"><img class="showcase-img" src="assets/grydin-app-showcase.png" alt="Grydin mart app on a phone with fresh produce" width="457" height="502" fetchpriority="high"><div class="showcase-demo-screen" aria-hidden="true"><video class="showcase-demo-video" muted loop playsinline preload="none" tabindex="-1"><source data-src="assets/grydin-app-demo.mp4" type="video/mp4"></video></div></div></div>
     </div></section>
     <section class="payments-section" id="payments"><div class="wrap payment-layout"><div class="payment-heading reveal"><p class="eyebrow">Local checkout, your choice</p><h2>Pay the Way You Want</h2><p>Choose a familiar way to pay when you place your order.</p></div><div class="payment-grid reveal">
       <div class="payment-option"><span class="payment-icon"><svg aria-hidden="true"><use href="#i-wallet"/></svg></span><span class="payment-name">Cash on Delivery</span><small>COD</small></div>
@@ -151,10 +152,24 @@
     if(heroModel&&heroScene)heroModel.addEventListener('load',()=>heroScene.classList.add('model-ready'));
     const whyModel=document.getElementById('why-model'),whyArt=document.querySelector('.why-art');
     if(whyModel&&whyArt)whyModel.addEventListener('load',()=>whyArt.classList.add('model-ready'));
-    const phoneWrap=document.querySelector('.phone-wrap'),phone=document.querySelector('.phone');
-    if(phoneWrap&&phone&&!reduceMotion&&matchMedia('(hover:hover) and (pointer:fine)').matches){
-      phoneWrap.addEventListener('pointermove',event=>{const r=phoneWrap.getBoundingClientRect(),x=(event.clientX-r.left)/r.width-.5,y=(event.clientY-r.top)/r.height-.5;phone.style.setProperty('--phone-y',(x*9)+'deg');phone.style.setProperty('--phone-x',(-y*6)+'deg')});
-      phoneWrap.addEventListener('pointerleave',()=>{phone.style.setProperty('--phone-y','0deg');phone.style.setProperty('--phone-x','0deg')});
+    const demoVideo=document.querySelector('.showcase-demo-video'),demoSource=demoVideo?.querySelector('source[data-src]'),demoScreen=demoVideo?.closest('.showcase-demo-screen');
+    if(demoVideo&&demoSource&&demoScreen&&!reduceMotion){
+      let demoRequested=false;
+      const startDemo=async()=>{
+        if(demoRequested)return;
+        demoRequested=true;
+        try{
+          const demoUrl=new URL(demoSource.dataset.src,document.baseURI);
+          const response=await fetch(demoUrl,{method:'HEAD'});
+          if(!response.ok)return;
+          demoSource.src=demoUrl.href;
+          demoVideo.load();
+          try{await demoVideo.play()}catch{}
+        }catch{}
+      };
+      demoVideo.addEventListener('playing',()=>demoScreen.classList.add('is-playing'));
+      demoVideo.addEventListener('error',()=>demoScreen.classList.remove('is-playing'));
+      if('IntersectionObserver' in window){const videoObserver=new IntersectionObserver(entries=>{if(entries.some(entry=>entry.isIntersecting)){videoObserver.disconnect();startDemo()}},{rootMargin:'240px 0px'});videoObserver.observe(demoScreen)}else startDemo();
     }
   </script>
 </body>

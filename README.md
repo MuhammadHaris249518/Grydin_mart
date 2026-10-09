@@ -9,9 +9,11 @@ Run `run-site.cmd` or `node server.js`, then open `http://127.0.0.1:4173/`. The 
 ## Project files
 
 - `index.html` — complete page, responsive styling and interactions.
-- `assets/grydin-grocery-bag.glb` — provided 3D grocery bag model.
+- `assets/grydin-grocery-bag.glb` — 3D grocery bag model used in the “Why Grydin” section.
+- `assets/grydin-grocery-bag-hero.glb` — updated 3D bag model used in the hero.
 - `assets/grydin-hero-art.png` — cropped grocery artwork used in the hero.
 - `assets/grydin-app-showcase.png` — app and fresh-produce showcase visual.
+- `assets/grydin-app-demo.mp4` — optional H.264 app screen recording, layered into the phone screen when present.
 - `server.js` and `run-site.cmd` — dependency-free local preview server and launcher.
 - `logo/grydin-mart-mark.svg` — Grydin grocery-bag-and-sprout brand mark.
 - `logo/grydin-mart-logo.svg` — full vector logo lockup.
@@ -24,4 +26,4 @@ Run `run-site.cmd` or `node server.js`, then open `http://127.0.0.1:4173/`. The 
 - Ink `#17251e`
 - Poppins headings and Roboto Mono captions
 
-The landing page presents Grydin mart's customer app, live tracking, order verification, substitutions, alerts, local payment methods, and rider program. The app preview is illustrative. The 3D hero uses Google's `<model-viewer>` component from its official CDN and the provided 22.4 MB GLB asset. The CDN script and Google Fonts require an internet connection; the model file is served locally. No delivery area, prices, customer statistics, customer quotes, contact details, store hours, or ordering destinations have been invented. Connect the app-store badges and rider CTA to their real destinations when those URLs are available.
+The landing page presents Grydin mart's customer app, live tracking, order verification, substitutions, alerts, local payment methods, and rider program. The app showcase image remains visible as a fallback. To show a recorded demo in the angled phone screen, add an H.264 MP4 named `grydin-app-demo.mp4` in `assets/`; playback starts muted, inline, and looping when the showcase approaches the viewport. The 3D hero uses Google's `<model-viewer>` component from its official CDN and the provided GLB asset. The CDN script and Google Fonts require an internet connection; the model file is served locally. No delivery area, prices, customer statistics, customer quotes, contact details, store hours, or ordering destinations have been invented. Connect the app-store badges and rider CTA to their real destinations when those URLs are available.
