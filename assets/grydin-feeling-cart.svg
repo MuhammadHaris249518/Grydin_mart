@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 540" fill="none" role="img" aria-labelledby="title desc">
   <title id="title">Grydin grocery cart</title>
-  <desc id="desc">A green grocery cart filled with fresh produce beside floating shopping and quality cards.</desc>
+  <desc id="desc">A Grydin grocery app phone, full green shopping cart, branded paper bag, and freshness card.</desc>
   <defs>
     <linearGradient id="basket" x1="224" y1="228" x2="498" y2="391" gradientUnits="userSpaceOnUse"><stop stop-color="#168455"/><stop offset=".48" stop-color="#075337"/><stop offset="1" stop-color="#032D20"/></linearGradient>
     <linearGradient id="rail" x1="188" y1="227" x2="518" y2="397" gradientUnits="userSpaceOnUse"><stop stop-color="#8BF0B6"/><stop offset=".28" stop-color="#31B978"/><stop offset="1" stop-color="#087047"/></linearGradient>
@@ -13,17 +13,24 @@
   </defs>
   <ellipse cx="373" cy="462" rx="205" ry="22" fill="#001D13" opacity=".43"/>
 
-  <g filter="url(#softShadow)" transform="rotate(-6 162 169)">
-    <rect x="48" y="67" width="205" height="204" rx="20" fill="#F8FAF3"/>
-    <rect x="64" y="82" width="174" height="31" rx="15.5" fill="#E9EEE7"/>
-    <circle cx="80" cy="97" r="5" stroke="#397860" stroke-width="2"/><path d="m84 101 5 5" stroke="#397860" stroke-width="2" stroke-linecap="round"/>
-    <text x="98" y="102" fill="#87958B" font-family="Arial,sans-serif" font-size="11">Search groceries...</text>
-    <path d="M65 129h171M65 164h171M65 199h171M65 234h171" stroke="#E5E9E2"/>
-    <circle cx="80" cy="146" r="8" fill="url(#tomato)"/><path d="m80 136 3 4 5-1-3 4" stroke="#367A43" stroke-width="2" stroke-linecap="round"/>
-    <text x="100" y="150" fill="#1D5037" font-family="Arial,sans-serif" font-size="12" font-weight="700">Fresh Produce</text><path d="m221 143 5 4-5 4" stroke="#6E8C78" stroke-width="1.5"/>
-    <rect x="74" y="172" width="13" height="18" rx="3" fill="#B8E7ED"/><path d="M77 169h7v4h-7z" fill="#4D99B2"/><text x="100" y="185" fill="#486354" font-family="Arial,sans-serif" font-size="12">Dairy</text>
-    <path d="M73 220c4-10 12-10 16-2l-10 8-6-6Z" fill="#E5A43D"/><text x="100" y="221" fill="#486354" font-family="Arial,sans-serif" font-size="12">Bakery</text>
-    <rect x="76" y="239" width="9" height="17" rx="3" fill="#56B898"/><text x="100" y="255" fill="#486354" font-family="Arial,sans-serif" font-size="12">Pantry</text>
+  <g filter="url(#shadow)" transform="rotate(-7 170 205)">
+    <rect x="78" y="52" width="184" height="306" rx="29" fill="#101A14" stroke="#829589" stroke-width="4"/>
+    <rect x="86" y="60" width="168" height="290" rx="22" fill="#F8FAF3"/>
+    <rect x="145" y="66" width="48" height="5" rx="2.5" fill="#26362D"/>
+    <text x="101" y="86" fill="#364B3E" font-family="Arial,sans-serif" font-size="9" font-weight="700">9:41</text>
+    <text x="101" y="109" fill="#164A32" font-family="Arial,sans-serif" font-size="15" font-weight="700">Grydin Mart</text>
+    <path d="m228 100 3-8 3 8 8 3-8 3-3 8-3-8-8-3 8-3Z" fill="#2C6E2F"/>
+    <rect x="99" y="121" width="143" height="27" rx="13.5" fill="#E9EEE7"/>
+    <circle cx="112" cy="134" r="4" stroke="#397860" stroke-width="1.5"/><path d="m115 137 4 4" stroke="#397860" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="124" y="138" fill="#87958B" font-family="Arial,sans-serif" font-size="9">Search groceries...</text>
+    <text x="101" y="170" fill="#173F2D" font-family="Arial,sans-serif" font-size="10" font-weight="700">Shop by category</text>
+    <path d="M99 181h143M99 214h143M99 247h143M99 280h143M99 313h143" stroke="#E3E9E1"/>
+    <circle cx="112" cy="198" r="7" fill="url(#tomato)"/><path d="m111 191 2 3 4-1-3 3" stroke="#367A43" stroke-width="1.4" stroke-linecap="round"/>
+    <text x="128" y="202" fill="#1D5037" font-family="Arial,sans-serif" font-size="10" font-weight="700">Fresh Produce</text><path d="m232 195 4 3-4 4" stroke="#6E8C78" stroke-width="1.4"/>
+    <rect x="106" y="222" width="11" height="16" rx="3" fill="#B8E7ED"/><path d="M109 219h6v4h-6z" fill="#4D99B2"/><text x="128" y="235" fill="#486354" font-family="Arial,sans-serif" font-size="10">Dairy &amp; Eggs</text>
+    <path d="M105 263c4-9 11-9 15-2l-9 8-6-6Z" fill="#E5A43D"/><text x="128" y="268" fill="#486354" font-family="Arial,sans-serif" font-size="10">Bakery</text>
+    <rect x="108" y="286" width="8" height="15" rx="3" fill="#56B898"/><text x="128" y="301" fill="#486354" font-family="Arial,sans-serif" font-size="10">Pantry</text>
+    <circle cx="113" cy="329" r="7" fill="#F5C342"/><path d="M110 329h6m-3-3v6" stroke="#fff" stroke-width="1.3" stroke-linecap="round"/><text x="128" y="333" fill="#486354" font-family="Arial,sans-serif" font-size="9">Snacks &amp; Drinks</text>
   </g>
 
   <g filter="url(#softShadow)" transform="rotate(9 527 101)">
@@ -67,16 +74,35 @@
     <circle cx="445" cy="463" r="22" fill="#12382A" stroke="#62D899" stroke-width="8"/><circle cx="445" cy="463" r="7" fill="#D9F5E2"/>
   </g>
 
-  <g filter="url(#softShadow)" transform="rotate(-12 116 350)">
-    <rect x="60" y="314" width="100" height="78" rx="23" fill="#075B3D" stroke="#35A977" stroke-opacity=".6"/>
-    <text x="80" y="373" fill="#F5FFF7" font-family="Arial,sans-serif" font-size="47" font-weight="700">%</text>
+  <g filter="url(#softShadow)" transform="rotate(-4 194 418)">
+    <rect x="143" y="380" width="55" height="76" rx="8" fill="#EFF5F0" stroke="#C7D8CA" stroke-width="2"/>
+    <rect x="149" y="387" width="43" height="27" rx="4" fill="#7FC8E8"/>
+    <path d="M151 421h39v27h-39z" fill="#F9FBF6"/><text x="155" y="438" fill="#326D85" font-family="Arial,sans-serif" font-size="8" font-weight="700">DAILY</text>
+    <path d="M207 393h25l7 11-4 49h-29l-4-48 5-12Z" fill="#F6F0D8" stroke="#C8B98A" stroke-width="2"/>
+    <path d="M211 392v-7h15v8" stroke="#56A77B" stroke-width="5" stroke-linecap="round"/><rect x="207" y="414" width="29" height="15" rx="4" fill="#56A77B"/>
+    <rect x="239" y="417" width="25" height="33" rx="5" fill="#DFE7D8" stroke="#A7B99F" stroke-width="2"/>
+    <path d="M243 413h17v7h-17z" fill="#3F7651"/><rect x="243" y="427" width="17" height="11" rx="3" fill="#F4C04C"/>
   </g>
-  <g filter="url(#softShadow)" transform="rotate(8 547 405)">
-    <path d="M489 346h94v121l-18-10-18 10-17-10-18 10-23-10V346Z" fill="#F7F8F0"/>
-    <circle cx="536" cy="372" r="15" fill="#45B87B"/><path d="m529 372 5 5 10-11" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="507" y="407" fill="#15583B" font-family="Arial,sans-serif" font-size="13" font-weight="700">Better</text>
-    <text x="503" y="424" fill="#15583B" font-family="Arial,sans-serif" font-size="13" font-weight="700">Choices</text>
-    <text x="500" y="441" fill="#15583B" font-family="Arial,sans-serif" font-size="13" font-weight="700">Everyday</text>
-    <path d="M509 453h45m-45 7h31" stroke="#55B88A" stroke-width="4" stroke-linecap="round"/>
+
+  <g opacity=".95" transform="rotate(-8 574 183)">
+    <text x="535" y="167" fill="#73E8AD" font-family="Arial,sans-serif" font-size="15" font-style="italic" font-weight="700">Groceries</text>
+    <text x="542" y="186" fill="#73E8AD" font-family="Arial,sans-serif" font-size="15" font-style="italic" font-weight="700">made easy</text>
+    <path d="m557 197-10 11m0 0 12-1m-12 1 3 11" stroke="#73E8AD" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g filter="url(#softShadow)" transform="rotate(8 568 286)">
+    <rect x="521" y="252" width="93" height="72" rx="15" fill="#0A432F" stroke="#68DCA0" stroke-opacity=".7" stroke-width="2"/>
+    <circle cx="545" cy="276" r="10" fill="#47B67A"/><path d="m540 276 4 4 7-8" stroke="#F7FFF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="560" y="277" fill="#E7F7EA" font-family="Arial,sans-serif" font-size="10" font-weight="700">Freshness</text>
+    <text x="540" y="296" fill="#E7F7EA" font-family="Arial,sans-serif" font-size="10" font-weight="700">Guaranteed</text>
+  </g>
+  <g filter="url(#softShadow)" transform="rotate(8 573 401)">
+    <path d="m525 349 99-9 7 111-99 10-7-112Z" fill="#C9955A"/>
+    <path d="m525 349 12 9 94-9" fill="#DCAE72"/>
+    <path d="M548 350v-19c0-22 42-25 43-3v17" stroke="#E7C597" stroke-width="7" stroke-linecap="round"/>
+    <path d="m549 389 23-2 5 10-23 2-5-10Z" fill="#174B35"/>
+    <path d="M557 386v-7l5 3 5-5v8" stroke="#F5EBDD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="548" y="413" fill="#174B35" font-family="Arial,sans-serif" font-size="11" font-weight="700">Grydin</text>
+    <text x="549" y="426" fill="#174B35" font-family="Arial,sans-serif" font-size="9" font-weight="700" letter-spacing="2">MART</text>
+    <path d="M539 451c10-16 17-24 28-30m-20 31c4-11 4-17 2-24" stroke="#4E8E49" stroke-width="4" stroke-linecap="round"/>
   </g>
 </svg>
