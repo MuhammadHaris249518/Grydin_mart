@@ -59,6 +59,19 @@
     @media(max-width:460px){.hero h1{font-size:clamp(2.45rem,10.5vw,3.2rem)}.hero-actions.store-actions{align-items:stretch;flex-direction:column}.store-badge{width:100%;min-height:56px}.payment-layout{gap:18px}.payment-grid{gap:8px}.payment-option{padding:13px}.rider-benefits{grid-template-columns:1fr;gap:10px}.rider-visual{min-height:230px}.route-map{height:220px}.earning-card{right:0;bottom:-7px}}
     .showcase-demo-screen{position:absolute;z-index:2;left:32%;top:6.2%;width:34.5%;height:81%;overflow:hidden;border-radius:8% / 4%;background:#f8f8f2;opacity:0;transform:skewX(-9deg) skewY(2deg);transform-origin:top left;transition:opacity .25s ease;pointer-events:none}.showcase-demo-screen.is-playing{opacity:1}.showcase-demo-screen video{display:block;width:100%;height:100%;object-fit:contain;object-position:center center;border-radius:inherit;background:#f8f8f2}
     @media(max-width:760px){.showcase-demo-screen video{object-fit:cover}}
+    .brand-story{min-height:500px;grid-template-columns:.95fr 1.05fr;gap:clamp(18px,4vw,48px);padding:clamp(40px,6vw,72px);border:1px solid #35a77736;border-radius:28px;background:radial-gradient(ellipse at 78% 48%,#0a4b32 0,#073a28 40%,#03261c 78%);box-shadow:0 28px 70px -46px #092b1e}
+    .brand-story:before{width:510px;height:510px;right:-70px;top:-185px;background:radial-gradient(circle at 46% 45%,#155e3d88 0,#0a452e62 45%,transparent 70%)}
+    .brand-story .eyebrow{color:#63e5a2;font-size:.7rem;letter-spacing:.18em}
+    .brand-story h2{max-width:600px;margin-top:22px;color:#f9fbf7;font-size:clamp(3rem,5.5vw,5rem);line-height:.99;letter-spacing:-.065em}
+    .brand-story h2 em{color:#5fe5a2;font-style:normal}
+    .brand-story p:not(.eyebrow){max-width:510px;margin-top:23px;color:#e1eee6;font-size:clamp(.96rem,1.4vw,1.1rem);line-height:1.55}
+    .story-art{height:clamp(380px,39vw,480px);min-height:0;display:grid;place-items:center;perspective:900px}
+    .story-illustration{display:block;width:100%;height:100%;object-fit:contain;overflow:visible;filter:drop-shadow(0 25px 35px #001c1266);transform:rotateY(-5deg);animation:storyCartFloat 6s ease-in-out infinite}
+    @keyframes storyCartFloat{0%,100%{translate:0 0;transform:rotateY(-5deg)}50%{translate:0 -8px;transform:rotateY(-2deg)}}
+    @media(max-width:760px){.brand-story{min-height:0;grid-template-columns:1fr;gap:4px;padding:clamp(30px,7vw,48px) clamp(23px,6vw,36px) 20px;border-radius:26px}.brand-story h2{max-width:560px;font-size:clamp(2.85rem,10vw,4.3rem)}.brand-story p:not(.eyebrow){max-width:560px;margin-top:18px}.story-art{height:clamp(280px,78vw,430px);margin:0 -16px}.story-illustration{transform:none;animation:storyCartFloatMobile 6s ease-in-out infinite}}
+    @keyframes storyCartFloatMobile{0%,100%{translate:0 0}50%{translate:0 -5px}}
+    @media(max-width:460px){.brand-story h2{font-size:clamp(2.7rem,12vw,3.5rem)}.brand-story p:not(.eyebrow){font-size:.94rem}.story-art{height:clamp(260px,82vw,360px);margin:0 -18px}}
+    @media(prefers-reduced-motion:reduce){.story-illustration{animation:none}}
   </style>
   <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.3.1/model-viewer.min.js"></script>
 </head>
@@ -167,7 +180,7 @@
       <article class="step-card reveal"><span class="step-number">02</span><p class="step-label">Make it yours</p><h3>Build your basket</h3><p>Gather the things on your list and save favourites for another day.</p></article>
       <article class="step-card reveal"><span class="step-number">03</span><p class="step-label">Ready when you are</p><h3>Follow it home</h3><p>Check your order updates and keep up with its journey to your door.</p></article>
     </div></div></section>
-    <section class="section" style="padding-top:0"><div class="wrap"><div class="brand-story reveal"><div><p class="eyebrow">The Grydin feeling</p><h2>Make room for the good little things.</h2><p>For familiar favourites, new discoveries, and the ingredients behind your next “that was delicious.” Grydin Mart is here for the everyday moments around the table.</p></div><div class="story-art" role="img" aria-label="Decorative 3D-inspired arrangement of fruit and fresh leaves"><div class="story-plate"><span class="story-leaf"></span></div><i class="story-spark a" aria-hidden="true"></i><i class="story-spark b" aria-hidden="true"></i></div></div></div></section>
+    <section class="section" style="padding-top:0"><div class="wrap"><div class="brand-story reveal"><div class="story-copy"><p class="eyebrow">The Grydin feeling</p><h2>Make room for <em>the good little things.</em></h2><p>For familiar favourites, new discoveries, and the ingredients behind your next “that was delicious.” Grydin Mart is here for the everyday moments around the table.</p></div><div class="story-art"><img class="story-illustration" src="assets/grydin-feeling-cart.svg" alt="A fresh grocery cart filled with produce, with Grydin shopping cards floating around it" width="640" height="540" loading="lazy"></div></div></div></section>
     <section class="section" id="faq"><div class="wrap faq-layout"><div class="faq-intro reveal"><p class="eyebrow">A few good questions</p><h2>Curious about Grydin?</h2><p>Here are a few quick notes about the shopping experience.</p></div><div class="faq-list reveal">
       <details><summary>What is Grydin Mart?</summary><p>Grydin Mart is a grocery-shopping experience designed to bring everyday browsing and ordering together in one place.</p></details>
       <details><summary>How do I find what I need?</summary><p>Browse the available categories or use search to look for a product, brand, or item on your list.</p></details>

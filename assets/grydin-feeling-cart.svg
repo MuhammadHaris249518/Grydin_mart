@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 540" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Grydin grocery cart</title>
+  <desc id="desc">A green grocery cart filled with fresh produce beside floating shopping and quality cards.</desc>
+  <defs>
+    <linearGradient id="basket" x1="224" y1="228" x2="498" y2="391" gradientUnits="userSpaceOnUse"><stop stop-color="#168455"/><stop offset=".48" stop-color="#075337"/><stop offset="1" stop-color="#032D20"/></linearGradient>
+    <linearGradient id="rail" x1="188" y1="227" x2="518" y2="397" gradientUnits="userSpaceOnUse"><stop stop-color="#8BF0B6"/><stop offset=".28" stop-color="#31B978"/><stop offset="1" stop-color="#087047"/></linearGradient>
+    <linearGradient id="tomato" x1=".3" y1=".1" x2=".8" y2="1"><stop stop-color="#FF7454"/><stop offset="1" stop-color="#CE3024"/></linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9DEB62"/><stop offset=".52" stop-color="#2A9B4A"/><stop offset="1" stop-color="#12633A"/></linearGradient>
+    <linearGradient id="mintCard" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#19A66C"/><stop offset="1" stop-color="#05623F"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceAlpha" stdDeviation="11"/><feOffset dy="13"/><feComponentTransfer><feFuncA type="linear" slope=".28"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="180%" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceAlpha" stdDeviation="7"/><feOffset dy="8"/><feComponentTransfer><feFuncA type="linear" slope=".2"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="basketClip"><path d="m215 226 300 7-39 155c-3 12-13 20-26 20H276c-13 0-23-8-27-20l-34-162Z"/></clipPath>
+  </defs>
+  <ellipse cx="373" cy="462" rx="205" ry="22" fill="#001D13" opacity=".43"/>
+
+  <g filter="url(#softShadow)" transform="rotate(-6 162 169)">
+    <rect x="48" y="67" width="205" height="204" rx="20" fill="#F8FAF3"/>
+    <rect x="64" y="82" width="174" height="31" rx="15.5" fill="#E9EEE7"/>
+    <circle cx="80" cy="97" r="5" stroke="#397860" stroke-width="2"/><path d="m84 101 5 5" stroke="#397860" stroke-width="2" stroke-linecap="round"/>
+    <text x="98" y="102" fill="#87958B" font-family="Arial,sans-serif" font-size="11">Search groceries...</text>
+    <path d="M65 129h171M65 164h171M65 199h171M65 234h171" stroke="#E5E9E2"/>
+    <circle cx="80" cy="146" r="8" fill="url(#tomato)"/><path d="m80 136 3 4 5-1-3 4" stroke="#367A43" stroke-width="2" stroke-linecap="round"/>
+    <text x="100" y="150" fill="#1D5037" font-family="Arial,sans-serif" font-size="12" font-weight="700">Fresh Produce</text><path d="m221 143 5 4-5 4" stroke="#6E8C78" stroke-width="1.5"/>
+    <rect x="74" y="172" width="13" height="18" rx="3" fill="#B8E7ED"/><path d="M77 169h7v4h-7z" fill="#4D99B2"/><text x="100" y="185" fill="#486354" font-family="Arial,sans-serif" font-size="12">Dairy</text>
+    <path d="M73 220c4-10 12-10 16-2l-10 8-6-6Z" fill="#E5A43D"/><text x="100" y="221" fill="#486354" font-family="Arial,sans-serif" font-size="12">Bakery</text>
+    <rect x="76" y="239" width="9" height="17" rx="3" fill="#56B898"/><text x="100" y="255" fill="#486354" font-family="Arial,sans-serif" font-size="12">Pantry</text>
+  </g>
+
+  <g filter="url(#softShadow)" transform="rotate(9 527 101)">
+    <rect x="477" y="47" width="93" height="89" rx="21" fill="url(#mintCard)"/>
+    <path d="M495 76h42l-5 24h-31l-6-31h-7m13 39a3 3 0 1 0 0 .1m26-.1a3 3 0 1 0 0 .1" stroke="#F1FFF5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <path d="m583 58 18-5m-15 18 20 1m-24 12 14 9" stroke="#F3C648" stroke-width="4" stroke-linecap="round"/>
+
+  <g filter="url(#shadow)">
+    <!-- produce rising above the basket -->
+    <path d="M273 224c-31-35-19-68 8-80 1 31 15 47 22 66 8-44 34-75 67-79-7 36-18 62-48 91 43-41 79-50 106-28-24 33-59 51-105 54l-50-9Z" fill="url(#leaf)"/>
+    <path d="M326 219c-14-46 2-79 35-92 9 35 2 57-14 89 26-36 52-48 78-33-15 31-38 46-83 51l-16-15Z" fill="#53B94E"/>
+    <path d="M383 218c-8-37 10-63 37-70 7 29 0 49-15 69 23-24 46-29 66-13-14 25-35 34-72 32l-16-18Z" fill="#218044"/>
+    <path d="M347 220c-37-37-27-70-3-84 8 34 22 46 27 70 8-29 27-46 51-44-7 29-23 48-52 65l-23-7Z" fill="#8ACB50"/>
+
+    <!-- milk carton and loaf -->
+    <path d="m418 166 10-35 20-13 31 7 9 35-9 68-66-4 5-58Z" fill="#F5F4E7" stroke="#D3DACD" stroke-width="3"/>
+    <path d="m428 132 21-14 31 7-13 17-38-3Z" fill="#79C9E5"/><path d="M448 122v19" stroke="#D7F6FF" stroke-width="3"/>
+    <path d="M343 210c-1-22 3-46 16-63 8-10 22-4 28 8l26 57-59 23-11-25Z" fill="#E7A647"/>
+    <path d="m364 166 10 4m-17 16 17 5m-6-32 10 5" stroke="#B96B2B" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- tomatoes, pepper and orange -->
+    <circle cx="303" cy="220" r="27" fill="url(#tomato)"/><path d="m302 194 4 10 10-5-5 11 10 5-13 1-5 10-4-11-11 2 8-8-5-9 10 5 5-11Z" fill="#25753F"/>
+    <circle cx="372" cy="219" r="25" fill="#F14B35"/><path d="m371 196 4 9 9-4-5 9 8 5-11 1-4 9-4-10-10 1 7-7-4-8 9 4 5-9Z" fill="#2E7B3E"/>
+    <path d="M402 211c-7-23 5-35 23-32 15 2 19 14 13 32-6 18-29 20-36 0Z" fill="#FFC52E"/><path d="M421 179c1-10 10-14 16-10-1 7-7 12-16 10Z" fill="#368347"/>
+    <path d="M459 218c-4-19 6-29 19-25 13 4 12 19 4 31-8 12-20 9-23-6Z" fill="#F2762D"/>
+
+    <!-- basket body and woven grid -->
+    <path d="m215 226 300 7-39 155c-3 12-13 20-26 20H276c-13 0-23-8-27-20l-34-162Z" fill="url(#basket)" stroke="#064A32" stroke-width="8" stroke-linejoin="round"/>
+    <g clip-path="url(#basketClip)" stroke="url(#rail)" stroke-width="8" opacity=".95">
+      <path d="m246 238 31 154m36-153 22 155m43-154 13 154m50-153-1 152m48-151-21 146"/>
+      <path d="m221 274 283 7m-273 35 263 7m-252 35 243 6m-228 32 215 4"/>
+    </g>
+    <path d="m199 222 323 8" stroke="url(#rail)" stroke-width="13" stroke-linecap="round"/>
+    <path d="m201 228 36 166c3 15 17 26 33 26h178c16 0 30-11 34-27l41-158" stroke="#62D899" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+
+    <!-- chassis and wheels -->
+    <path d="m284 416 10 30c3 9 11 14 21 14h121c11 0 18-6 21-16l9-27" stroke="url(#rail)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="m465 444 50-3 28-24" stroke="url(#rail)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="323" cy="463" r="22" fill="#12382A" stroke="#62D899" stroke-width="8"/><circle cx="323" cy="463" r="7" fill="#D9F5E2"/>
+    <circle cx="445" cy="463" r="22" fill="#12382A" stroke="#62D899" stroke-width="8"/><circle cx="445" cy="463" r="7" fill="#D9F5E2"/>
+  </g>
+
+  <g filter="url(#softShadow)" transform="rotate(-12 116 350)">
+    <rect x="60" y="314" width="100" height="78" rx="23" fill="#075B3D" stroke="#35A977" stroke-opacity=".6"/>
+    <text x="80" y="373" fill="#F5FFF7" font-family="Arial,sans-serif" font-size="47" font-weight="700">%</text>
+  </g>
+  <g filter="url(#softShadow)" transform="rotate(8 547 405)">
+    <path d="M489 346h94v121l-18-10-18 10-17-10-18 10-23-10V346Z" fill="#F7F8F0"/>
+    <circle cx="536" cy="372" r="15" fill="#45B87B"/><path d="m529 372 5 5 10-11" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="507" y="407" fill="#15583B" font-family="Arial,sans-serif" font-size="13" font-weight="700">Better</text>
+    <text x="503" y="424" fill="#15583B" font-family="Arial,sans-serif" font-size="13" font-weight="700">Choices</text>
+    <text x="500" y="441" fill="#15583B" font-family="Arial,sans-serif" font-size="13" font-weight="700">Everyday</text>
+    <path d="M509 453h45m-45 7h31" stroke="#55B88A" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>
