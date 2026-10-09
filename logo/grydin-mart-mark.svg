@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Grydin Mart mark">
-  <rect x="1" y="1" width="62" height="62" rx="19" fill="#194d35"/>
+  <rect x="1" y="1" width="62" height="62" rx="19" fill="#2c6e2f"/>
   <path d="M17 26h30l-3 25H20l-3-25Z" fill="#f8f8f2"/>
   <path d="M23 27c0-9 3.4-13 9-13s9 4 9 13" fill="none" stroke="#f8f8f2" stroke-width="4" stroke-linecap="round"/>
-  <path d="M26 13c.5-6 5-9 11-9 .2 6-3.6 10-9.7 10" fill="#d5ed83"/>
-  <path d="M27 13 34 7" fill="none" stroke="#194d35" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M26 13c.5-6 5-9 11-9 .2 6-3.6 10-9.7 10" fill="#ffb81c"/>
+  <path d="M27 13 34 7" fill="none" stroke="#2c6e2f" stroke-width="1.5" stroke-linecap="round"/>
   <path d="M26 34c4 3.2 8 3.2 12 0M26 42c4 3.2 8 3.2 12 0" fill="none" stroke="#7fa579" stroke-width="2" stroke-linecap="round"/>
 </svg>
