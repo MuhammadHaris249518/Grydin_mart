@@ -4,7 +4,7 @@ A light-theme, static marketing landing page for Grydin Mart. It is designed to 
 
 ## Preview
 
-Run `run-site.cmd` or `node server.js`, then open `http://127.0.0.1:4173/`. The local server is needed because browsers block loading the GLB from a `file://` URL. The hero and “Why Grydin” section display the supplied GLB as an interactive 3D model; the hero uses the reference artwork as its loading poster.
+Run `run-site.cmd` or `node server.js`, then open `http://127.0.0.1:4173/`. The local server is needed because browsers block loading the GLB from a `file://` URL. The hero displays the supplied GLB as an interactive 3D model, using the reference artwork as its loading poster.
 
 ## Project files
 
