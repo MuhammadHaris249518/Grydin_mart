@@ -17,10 +17,10 @@ Run `run-site.cmd` or `node server.js`, then open `http://127.0.0.1:4173/`. The 
 
 ## Brand direction
 
-- Evergreen `#194d35` / `#246044`
+- Grydin green `#2C6E2F`
+- Accent yellow `#FFB81C`
 - Warm paper `#f8f8f2`
-- Fresh lime `#d5ed83`
-- Citrus coral `#e76c42`
 - Ink `#17251e`
+- Poppins headings and Roboto Mono captions
 
-The landing page uses brand-led, general marketing copy and an illustrative app preview. The 3D hero uses Google's `<model-viewer>` component from its official CDN and the provided 22.4 MB GLB asset. The CDN script requires an internet connection; the model file is served locally. No delivery area, prices, customer statistics, customer quotes, contact details, store hours, or ordering destinations have been invented. The current primary actions navigate within the page; connect them to the actual store/app destination when it is available.
+The landing page presents Grydin mart's customer app, live tracking, order verification, substitutions, alerts, local payment methods, and rider program. The app preview is illustrative. The 3D hero uses Google's `<model-viewer>` component from its official CDN and the provided 22.4 MB GLB asset. The CDN script and Google Fonts require an internet connection; the model file is served locally. No delivery area, prices, customer statistics, customer quotes, contact details, store hours, or ordering destinations have been invented. Connect the app-store badges and rider CTA to their real destinations when those URLs are available.
