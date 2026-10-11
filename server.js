@@ -59,6 +59,6 @@ http.createServer((request, response) => {
     });
   });
 }).listen(port, host, () => {
-  console.log(`Grydin Mart is ready at http://${host}:${port}/`);
+  console.log(`GrydIn Mart is ready at http://${host}:${port}/`);
   console.log('Keep this window open while previewing the site.');
 });
